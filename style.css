@@ -281,7 +281,7 @@ body {
     transition: 0.3s;
 }
 
-.submit-btn:hover { background: #676767; }
+.submit-btn:hover { background: #ffffff; }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
