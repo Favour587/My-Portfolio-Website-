@@ -11,14 +11,14 @@ body {
 .hero {
     height: 85vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('fav.jpeg');
+                url('photo6.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
     position: relative;
     display: flex;
-    justify-content: center; /* Horizontally centers h1 */
-    align-items: center;     /* Vertically centers h1 */
+    justify-content: center; 
+    align-items: center;    
 }
 
 .navbar {
@@ -47,13 +47,13 @@ body {
 }
 
 .nav-links a:hover {
-    transform: translateY(-5px); /* Moves the link UP by 5 pixels */
-    opacity: 0.7;                /* Optional: makes it slightly transparent for a 'fade' effect */
+    transform: translateY(-5px);
+    opacity: 0.7;                
 }
 
 .about-nav-links a:hover {
-    transform: translateY(-5px); /* Moves the link UP by 5 pixels */
-    opacity: 0.7;                /* Optional: makes it slightly transparent for a 'fade' effect */
+    transform: translateY(-5px); 
+    opacity: 0.7;                
 }
 
 .about-nav-links {
@@ -88,11 +88,11 @@ body {
     margin-top: 15px;
 }
 
-/* --- THE FEATURE BAR (Flexbox at work) --- */
+
 .feature-bar {
-    background-color: #f2f2f2; /* Light grey bar */
+    background-color: #f2f2f2; 
     display: flex;
-    justify-content: space-around; /* Spreads items evenly */
+    justify-content: space-around; 
     padding: 40px 10%;
     border-bottom: 10px solid #000000;
 }
@@ -104,7 +104,7 @@ body {
     color: #333;
 }
 
-/* --- WHITE SECTION --- */
+
 .content-section {
     padding: 100px 15%;
     text-align: center;
@@ -137,13 +137,13 @@ body {
     color: #111; 
     margin-bottom: 30px;
 }
-/* RESPONSIVENESS (CA Requirement #2) */
+
 @media (max-width: 768px) {
     .hero h1 { font-size: 40px; }
     .feature-bar { flex-direction: column; text-align: center; gap: 20px; }
 }
 
-/* Styling for the Project Page Header */
+
 .project-page { background-color: #f9f9f9; color: #111; }
 
 .projects-logo{
@@ -170,9 +170,9 @@ body {
     gap: 30px;             
 }
 
-/* THE PROJECT CARDS */
+
 .project-card {
-    flex: 1 1 350px;       /* Grow, Shrink, Basis (Width) */
+    flex: 1 1 350px;       
     max-width: 450px;
     background: white;
     border: 1px solid #eee;
@@ -210,7 +210,7 @@ body {
     margin-top: 5px;
  }
 
-/* PROFILE PAGE STYLES */
+
 .about-container {
     display: flex;
     align-items: center;
@@ -252,7 +252,7 @@ body {
     text-transform: uppercase;
 }
 
-/* CONTACT PAGE STYLES */
+
 
 .contact-wrapper {
     display: flex;
@@ -308,7 +308,7 @@ body {
 
 .submit-btn:hover { background: #545353; }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .profile-container { flex-direction: column; text-align: center; }
     .profile-image img { width: 100%; height: 300px; }
@@ -324,8 +324,8 @@ body {
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Pushes sections apart */
-    flex-wrap: wrap;               /* Allows stacking on mobile */
+    justify-content: space-between; 
+    flex-wrap: wrap;               
     gap: 40px;
     margin-bottom: 40px;
 }
@@ -383,10 +383,10 @@ body {
     font-size: 12px;
 }
 
-/* RESPONSIVE FOOTER */
+
 @media (max-width: 768px) {
     .footer-content {
-        flex-direction: column; /* Stacks everything on mobile */
+        flex-direction: column; 
         text-align: center;
     }
     .social-icons {
